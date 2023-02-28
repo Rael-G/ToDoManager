@@ -1,68 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TaskManagerHome</title>
-    <link rel="stylesheet" href="../css/styles.css"/>
-    <script src="../js/scripts.js" defer></script>
-</head>
-<body>
-    <header>
-        <h1>To Do Manager</h1>
-    </header>
-    <div>
-        <h2>Adicionar Tarefa</h2>
-        <form>
-            <input placeholder="Acordar cedo">
-            <input type="submit" value="+">
-        </form>
-    </div>
-    <div> 
-        <h2>Tarefas a fazer</h2>
-        <ul>
-            <table>
-                <tbody>
-                <tr>
-                    <td>Nome da tarefa</td>
-                    <td><button>></button></td>
-                    <td>Descrição da tarefa</td>
-                    <td>
-                        <button>Edit</button>
-                        <button>Delete</button>
-                    </td>
-                </tr>         
-            </table>
-            <table>
-                <tbody>
-                <tr>
-                    <td>Nome da tarefa 2 </td>
-                    <td><button>></button></td>
-                    <td>Descrição da tarefa</td>
-                    <td>
-                        <button>Edit</button>
-                        <button>Delete</button>
-                    </td>
-                </tr>         
-            </table>
-            <table>
-                <tbody>
-                <tr>
-                    <td>Nome da tarefa 3</td>
-                    <td><button>></button></td>
-                    <td>Descrição da tarefa</td>
-                    <td>
-                        <button>Edit</button>
-                        <button>Delete</button>
-                    </td>
-                </tr>         
-            </table>
-        </ul>
-    </tbody>
-    </div>    
-    <footer>
+<html>
+  <head>
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+  <body>
+    <h1>Gerenciador de Tarefas</h1>
+    <form>
+      <label for="tarefa">Adicionar Tarefa:</label>
+      <input type="text" id="tarefa" name="tarefa">
+      <button class="adicionar" type="submit">+</button>
 
-    </footer>  
-</body>
+    </form>
+    <ul>
+      <li>
+        <p>tarefa 1</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos illo accusamus eaque nam, laborum, rem molestiae fuga esse iure nulla eligendi consequatur quaerat hic dolor fugit. Cum iste voluptatibus reprehenderit?</p>
+        <button class="checar"><i class="fas fa-check"></i></button>
+        <button class="editar"><i class="fas fa-pencil-alt"></i></button>
+        <button class="deletar"><i class="fas fa-times"></i></button>
+      </li>
+      <li>
+        <p>tarefa 1</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, voluptates natus porro sit voluptas cupiditate quis quibusdam possimus vitae sed quae itaque laboriosam placeat tempora ratione similique, quia eaque ab.</p>
+        <button class="checar"><i class="fas fa-check"></i></button>
+        <button class="editar"><i class="fas fa-pencil-alt"></i></button>
+        <button class="deletar"><i class="fas fa-times"></i></button>
+      </li>
+    </ul>
+  </body>
 </html>
