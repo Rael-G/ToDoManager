@@ -81,3 +81,7 @@ body {
     background-color: #f44336;
     padding: 8px 19px;
     }
+
+  button i {
+    pointer-events: none;
+   }
